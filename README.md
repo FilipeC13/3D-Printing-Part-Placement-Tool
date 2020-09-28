@@ -12,10 +12,10 @@ In this case the focus was in Sequential FDM which means that the 3D Printer wil
 The problem at hand can be summed in the following sentence: 
 "Given a set of parts of irregular geometry and small dimension, what is the layout or part placement in the printing tray that maximizes the number of sets and parts?"
 
-Constraints: 
-  . The printer's head cannot collide with any of the parts during printing;
-  . No part can be superimposed on another one;
-  . Part's skirts must not superimpose each other.
+Constraints:
+  * The printer's head cannot collide with any of the parts during printing;
+  * No part can be superimposed on another one;
+  * Part's skirts must not superimpose each other.
 
 The problem as a whole can be divided into 2 subproblems: the geometric problem and the combinatory problem.
 
