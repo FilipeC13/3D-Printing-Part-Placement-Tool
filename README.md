@@ -27,6 +27,9 @@ Geometric Representation
   
 # B. Solution
 
+  ## B.0. Rasterization App
+  This app produces .txt files that can be used by the VBA Excel app. It takes as an input the 3D model of the part and converts them into 2D matrixes were 1 means that there is part and 0 means empty space. This app was developed by another colleague from the Polytechnic Institute of Porto.
+  
   ## B.1. Constructive Heuristic
   The constructive heuristic allows the tool to get an initial solution for the problem which will be improved afterwards. The heuristic starts with a bottom-right placement of the parts and sequences them by increading height. This is to avoid colision of the printing head with the previously placed parts.
   
@@ -34,12 +37,20 @@ Geometric Representation
   The method chosen to generate neighbors was the Adjavent Pairwise Interchange which is represented in the following image:
   
   ## B.3. Visual Representation
+  In order to better visualize the solution obtained, a graphical output was made that represents a top-view of the printing tray and the respective layout of the parts.
   
 # C. Testing
   ## C.1. Phase 1 - 2 Simple Geometry Parts
+  The initial test was made using a set made of 2 simple geometry parts in order to validate the model. The parts were the following:
+  
   ## C.2. Phase 2 - 2 Medium Complexity Geometry Parts
+  After the phase 1 of tests, the next set was made of 2 medium complexity parts as shown in the following figure:
+  
   ## C.3. Phase 3 - 4 Complex Geometry Parts 
   The Set of Parts is SHAPES in Oliveira, Gomes, & Ferreira, 2000. The following figure represents the parts:
+  
+  The results obtained with this last set of parts were the following:
+  
   
 # D. Future Work
   - Being able to obtain certain characteristics of the parts, printer and printing settings from the G-Code file such as:
