@@ -18,10 +18,6 @@ Constraints:
   * Part's skirts must not superimpose each other.
 
 The problem as a whole can be divided into 2 subproblems: the geometric problem and the combinatory problem.
-
-Geometric Representation
-  The method used for the part representation was the Raster Method which originally stated that a 1 simbolizes where some part is and 0 codifies empty space.
-  In this case, the tool was created so that it presents the height of the part instead of 1.
   
 # B. Solution
 
@@ -36,11 +32,14 @@ Geometric Representation
   
   ## B.3. Visual Representation
   In order to better visualize the solution obtained, a graphical output was made that represents a top-view of the printing tray and the respective layout of the parts.
- 
+  The method used for the part representation was the Raster Method which originally stated that a 1 simbolizes where some part is and 0 codifies empty space.
+  In this case, the tool was created so that it presents the height of the part instead of 1.
+  
 # C. Using the Tool
   The G-Code file is a file that can be obtained from softwares like Ultimaker Cura and that describe the movements of the printer to print the part.
-  First, the G-Code file of the parts needs to be transformed into a .txt file. To do that, use the command line tool in the folder "g-code-processor" and follow the instructions present in readme.md file. You can set the x and y resolution and some other parameters.
-  After that, open the Excel tool in the folder "3D Part Placing Tool" named "3D Part Placing Tool.xlsm" and add the .txt files of the parts, introduce their heights and add your printer's characteristics if necessary. You can now run the tool and it will generate a solution for the parts imported, printer characteristics and resolution in the configurations.
+  1. First, the G-Code file of the parts needs to be transformed into a .txt file. To do that, use the command line tool in the folder "g-code-processor" and follow the instructions present in readme.md file. You can set the x and y resolution and some other parameters.
+  2. After that, open the Excel tool in the folder "3D Part Placing Tool" named "3D Part Placing Tool.xlsm" and add the .txt files of the parts, introduce their heights and add your printer's characteristics if necessary. 
+  3. You can now run the tool and it will generate a solution for the parts imported, printer characteristics and resolution in the configurations.
   
 # D. Future Work
   - Being able to obtain certain characteristics of the parts, printer and printing settings from the G-Code file such as:
