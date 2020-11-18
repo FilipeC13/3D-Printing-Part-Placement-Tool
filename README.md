@@ -43,11 +43,11 @@ The problem as a whole can be divided into 2 subproblems: the geometric problem 
   
 # D. Future Work
   - Being able to obtain certain characteristics of the parts, printer and printing settings from the G-Code file such as:
-      . Height of the part;
-      . Quality of the printing for each part (layer thickness);
-      . Distance from the part to its skirt;
-      . Skirt Width;
-      . Printer's Dimensions.
+      - Height of the part;
+      - Quality of the printing for each part (layer thickness);
+      - Distance from the part to its skirt;
+      - Skirt Width;
+      - Printer's Dimensions.
   - Giving the user the option to choose the positioning rule and suggesting which is more appropriate considering the printer's characteristics.
   - Execute the Raster Method without the external app;
   - Part Rotation in the Tabu Search Metaheuristic (the function that does that is already made).
